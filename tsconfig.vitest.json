@@ -1,0 +1,22 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo",
+    "noEmit": true,
+    "types": [
+      "vite/client",
+      "vitest/globals",
+      "@testing-library/jest-dom",
+      "@vitest/browser-playwright"
+    ]
+  },
+  "include": [
+    "src/**/*.test.ts",
+    "src/**/*.test.tsx",
+    "src/**/*.browser.test.ts",
+    "src/**/*.browser.test.tsx",
+    "vitest.setup.ts",
+    "vitest.browser.setup.ts",
+    "vitest.shims.d.ts"
+  ]
+}

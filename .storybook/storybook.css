@@ -1,0 +1,3 @@
+@import "../src/shared/ui/shadcn/styles/globals.css";
+
+@source "../src/**/*.stories.tsx";
